@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../../main.css" />
+    <link rel="stylesheet" href="./alphabet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script>
+    <title>i-mix: Alphabet</title>
+  </head>
+  <body>
+    <div class="nuvens-container">
+      <img src="../../icones/nuvem.png" class="nuvem a" />
+      <img src="../../icones/nuvem.png" class="nuvem b" />
+    </div>
+    <div class="titulo">
+      <img src="../../icones/letreiro-alphabet.png" alt="alphabet" />
+    </div>
+    <div class="balao">
+      <h2>
+        Olá, Clique no Ícone de Aúdio
+        <img id="audio-btn" src="../../icones/icone-som.png" />
+      </h2>
+    </div>
+    <div class="game-wrapper">
+      <img src="../../icones/menino.png" alt="menino" />
+      <div class="game-box">
+        <div class="header">
+          <p>Alfabeto</p>
+          <div class="buttons">
+            <button>
+              <i class="fa-solid fa-window-minimize"></i>
+            </button>
+            <button>
+              <i class="fa-sharp fa-regular fa-square"></i>
+            </button>
+            <button>
+              <i class="fa-sharp fa-solid fa-xmark"></i>
+            </button>
+          </div>
+        </div>
+        <div class="content">
+          <div class="fake-input-container">
+            <div class="fake-input">
+              <h3>Selecione a letra correta</h3>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="letras"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./alphabet.js"></script>
+  </body>
+  <footer>
+    <a href="../../index.html">
+      <img class="logo" src="../../icones/mdb.png" />
+    </a>
+  </footer>
+</html>
