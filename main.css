@@ -1,0 +1,63 @@
+@import url(http://db.onlinewebfonts.com/c/b2f90b602a9f5c2da56ad4ff3074c9ca?family=Intro);
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+@font-face {
+  font-family: "Adigiana-Toybox-Regular";
+  src: url("./fontes/AdigianaUI.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #31abef;
+
+  overflow-x: hidden;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  font-family: "Intro", sans-serif;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+
+  justify-content: center;
+
+  width: 100vw;
+  height: 10vh;
+
+  margin-top: 10vh;
+  background-image: url("./icones/rodape.png");
+  background-repeat: repeat;
+}
+
+footer img.logo {
+  margin: auto;
+  margin-top: -4vh;
+
+  cursor: pointer;
+  transition: 0.2s all;
+
+  width: 50vh;
+}
+
+footer img.logo:hover {
+  transform: scale(1.05);
+}
